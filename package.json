@@ -1,10 +1,14 @@
 {
+  "author": "jane-doe",
   "scripts": {
     "build": "rollup -c",
-    "live": "npx parcel index.html"
+    "live": "npx parcel public/index.html"
   },
   "devDependencies": {
     "rollup": "latest",
     "@rollup/plugin-buble": "latest"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
