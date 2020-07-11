@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "rollup -c",
+    "live": "npx parcel index.html"
+  },
+  "devDependencies": {
+    "rollup": "latest",
+    "@rollup/plugin-buble": "latest"
+  }
+}
