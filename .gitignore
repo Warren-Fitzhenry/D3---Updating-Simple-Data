@@ -2,6 +2,7 @@
 npm-debug.log
 .DS_Store
 /*.env
-build/*
 dist/*
 /.cache
+/build/bundle.js
+/build/bundle.js.map

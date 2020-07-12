@@ -1,14 +1,17 @@
 {
-  "author": "jane-doe",
+  "author": "Warren Fitzhenry",
   "scripts": {
     "build": "rollup -c",
-    "live": "npx parcel public/index.html"
+    "start": "node server.js"
   },
   "devDependencies": {
-    "rollup": "latest",
-    "@rollup/plugin-buble": "latest"
+    "@rollup/plugin-buble": "latest",
+    "rollup": "latest"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   },
   "engines": {
-    "node": "10.x"
+    "node": "14.x"
   }
 }
