@@ -4,5 +4,5 @@ npm-debug.log
 /*.env
 dist/*
 /.cache
-/build/bundle.js
-/build/bundle.js.map
+/public/bundle.js
+/public/bundle.js.map

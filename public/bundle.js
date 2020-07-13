@@ -19,7 +19,7 @@
   svg.append("text")
       .attr("x",xBuffer+(lineLength/2))
       .attr("y",50)
-      .text("dataset"+ dataIndex);
+      .text("Dataset"+ dataIndex);
               
   //create axis line
   svg.append("line")
